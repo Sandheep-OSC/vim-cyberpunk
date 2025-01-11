@@ -56,37 +56,37 @@ call HighlightFor("CursorColumn", "NONE",    "NONE",    "NONE")
 
 " Code {{{
 " The following groups are not builtin but are defined commonly in syntax files
-call HighlightFor("Comment",   "#6766b3", "NONE", "NONE")
+call HighlightFor("Comment",   "#6766b3", "NONE", "italic")
 call HighlightFor("String",    "#5E81F5", "NONE", "NONE")
 call HighlightFor("Number",    "#fffc58",  "NONE", "NONE")
 call HighlightFor("Float",     "#fffc58",  "NONE", "NONE")
-call HighlightFor("Boolean",   "#fffc58",  "NONE", "NONE")
+call HighlightFor("Boolean",   "#fffc58",  "NONE", "italic")
 call HighlightFor("Character", "#fffc58",  "NONE", "NONE")
 
-call HighlightFor("Conditional",  "#EDF37E", "NONE", "NONE")
+call HighlightFor("Conditional",  "#EDF37E", "NONE", "italic")
 call HighlightFor("Repeat",       "#EDF37E", "NONE", "NONE")
 call HighlightFor("Label",        "#EDF37E", "NONE", "NONE")
 call HighlightFor("Exception",    "#EDF37E", "NONE", "NONE")
 call HighlightFor("Operator",     "#EDF37E", "NONE", "NONE")
-call HighlightFor("Keyword",      "#8aebf1", "NONE", "NONE") " old #d57bff
+call HighlightFor("Keyword",      "#8aebf1", "NONE", "italic") " old #d57bff
 call HighlightFor("StorageClass", "#8aebf1", "NONE", "NONE")
 call HighlightFor("Statement",    "#8aebf1", "NONE", "NONE")
 
-call HighlightFor("Function",   "#00b0ff", "NONE", "NONE")
+call HighlightFor("Function",   "#00b0ff", "NONE", "italic")
 call HighlightFor("Identifier", "#EEFFFF", "NONE", "NONE")
 
 call HighlightFor("PreProc", "#00FF9C", "NONE", "NONE")
 
-call HighlightFor("Type",      "#00FF9C", "NONE", "NONE")
-call HighlightFor("Structure", "#00FF9C", "NONE", "NONE")
-call HighlightFor("Typedef",   "#00FF9C", "NONE", "NONE")
+call HighlightFor("Type",      "#00FF9C", "NONE", "italic")
+call HighlightFor("Structure", "#00FF9C", "NONE", "italic")
+call HighlightFor("Typedef",   "#00FF9C", "NONE", "italic")
 
-call HighlightFor("Underlined", "NONE",    "NONE",    "NONE")
+call HighlightFor("Underlined", "NONE",    "NONE",    "undercurl")
 call HighlightFor("Todo",       "#00FF9C", "#372963", "italic")
 call HighlightFor("Error",      "#ff3270", "NONE",   "undercurl")
 call HighlightFor("WarningMsg", "#009550", "NONE",   "NONE")
 call HighlightFor("Special",    "#00FF9C", "NONE",   "italic")
-call HighlightFor("Tag",        "#00FF9C", "NONE",    "undercurl")
+call HighlightFor("Tag",        "#00FF9C", "NONE",    "NONE")
 " }}}
 
 " Pmenu {{{
